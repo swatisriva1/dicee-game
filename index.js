@@ -14,7 +14,7 @@ else if(randomNumber2 > randomNumber1) {
     newHeading = "Player 2 Wins! 🚩";
 }
 else {
-    newHeading = "Draw!";
+    newHeading = "Tie!";
 }
 document.querySelector("h1").textContent = newHeading;
 document.querySelector("h1").classList.add("play-result");
